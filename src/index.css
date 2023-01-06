@@ -1,0 +1,20 @@
+body {
+  background: rgba(96, 114, 226, 0.08);
+  margin: 0 20px;
+}
+
+form {
+  background: #fff;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 8px 54px 0 #00000014;
+}
+
+.form-step-count {
+  right: 24px;
+}
+
+input::placeholder {
+  opacity: 0.5 !important;
+}
