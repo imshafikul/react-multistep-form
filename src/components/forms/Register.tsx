@@ -25,7 +25,7 @@ export default function RegisterForm({
           <Form.Control
             type="email"
             value={email}
-            placeholder="Enter email address"
+            placeholder="john.doe@gmail.com"
             onChange={(e) => updateFileds({ email: e.target.value })}
             required
           />
@@ -35,7 +35,7 @@ export default function RegisterForm({
           <Form.Label>Username</Form.Label>
           <Form.Control
             value={username}
-            placeholder="Enter username"
+            placeholder="john"
             onChange={(e) => updateFileds({ username: e.target.value })}
             required
           />
@@ -46,7 +46,7 @@ export default function RegisterForm({
           <Form.Control
             type="password"
             value={password}
-            placeholder="Enter password"
+            placeholder="******"
             onChange={(e) => updateFileds({ password: e.target.value })}
             required
           />

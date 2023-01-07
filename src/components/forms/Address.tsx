@@ -26,7 +26,7 @@ export default function Address({
           <Form.Label>Street</Form.Label>
           <Form.Control
             value={street}
-            placeholder="Enter street"
+            placeholder="2359 Davisson Street"
             onChange={(e) => updateFileds({ street: e.target.value })}
             required
           />
@@ -36,7 +36,7 @@ export default function Address({
           <Form.Label>City</Form.Label>
           <Form.Control
             value={city}
-            placeholder="Enter city"
+            placeholder="Modoc"
             onChange={(e) => updateFileds({ city: e.target.value })}
             required
           />
@@ -46,7 +46,7 @@ export default function Address({
           <Form.Label>State</Form.Label>
           <Form.Control
             value={state}
-            placeholder="Enter state"
+            placeholder="Indiana"
             onChange={(e) => updateFileds({ state: e.target.value })}
             required
           />
@@ -56,7 +56,7 @@ export default function Address({
           <Form.Label>Zip</Form.Label>
           <Form.Control
             value={zip}
-            placeholder="Enter zip"
+            placeholder="47358"
             onChange={(e) => updateFileds({ zip: e.target.value })}
             required
           />

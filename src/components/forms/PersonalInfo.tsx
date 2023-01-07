@@ -24,7 +24,7 @@ export default function PersonalInfo({
           <Form.Label>First Name</Form.Label>
           <Form.Control
             value={firstName}
-            placeholder="Enter first name"
+            placeholder="John"
             onChange={(e) => updateFileds({ firstName: e.target.value })}
             required
           />
@@ -34,7 +34,7 @@ export default function PersonalInfo({
           <Form.Label>Last Name</Form.Label>
           <Form.Control
             value={lastName}
-            placeholder="Enter last name"
+            placeholder="Doe"
             onChange={(e) => updateFileds({ lastName: e.target.value })}
             required
           />
@@ -45,7 +45,7 @@ export default function PersonalInfo({
           <Form.Control
             type="number"
             value={age}
-            placeholder="Enter age"
+            placeholder="30"
             min={1}
             onChange={(e) => updateFileds({ age: parseInt(e.target.value) })}
           />
